@@ -1,0 +1,167 @@
+Snowport:
+  Enabled: true
+  Cooldown: 15
+  Range: 8
+  Item:
+    Name: "&b&lSnowport"
+    Lore:
+      - ""
+      - "&7&oThrow this at a player to switch positions"
+      - ""
+  Messages:
+    Damaged:
+      - "&cYou have been hit by a snowport!"
+      - "&cYou have switched positions with %player%"
+    Damager:
+      - "&cYou have switched positions with %player%"
+    Range:
+      - "&cThat player is out of range"
+
+
+LazyBrewer:
+  Enabled: true
+  Cooldown: 0
+  Item:
+    Name: "&b&lLazybrewer"
+    Lore:
+      - ""
+      - "&7&oPlace this in an empty 3x3 area to get some free pots!"
+      - ""
+  Messages:
+    Placed:
+      - "&cYou have used a Lazybrewer!"
+    Error:
+      - "&cThere is not enough room, make sure there is nothing interfering within the 3x3 radius!"
+
+
+AntiBuildBone:
+  Enabled: true
+  Cooldown: 300
+  Item:
+    Name: "&b&lAntiBuildBone"
+    Lore:
+      - ""
+      - "&7&oHit a player 3 times with this item to stop them from interacting with blocks!"
+      - ""
+  Messages:
+    Timer:
+      - "&cYou cannot do this for another %time% seconds."
+    Damager:
+      WrongPlayer:
+        - "&cYou have hit a different player! Your hits has been reset."
+      HitsReset:
+        - "&cYou failed to hit that player three times, your hits have been reset!"
+      Message:
+        - "&cYou have hit %player% with an AntiBuildBone."
+
+FreezeGun:
+  Enabled: true
+  Cooldown: 180
+  Item:
+    Name: "&b&lFreezeGun"
+    Lore:
+      - ""
+      - "&7&oShoot an enemy to give them slowness"
+      - ""
+  Messages:
+    Damager:
+      - "&cYou have hit %player% with a freezegun!"
+    Damaged:
+      - "&cYou have been hit with a freezegun!"
+
+SwitchStick:
+  Enabled: true
+  Cooldown: 120
+  Item:
+    Name: "&b&lSwitchStick"
+    Lore:
+      - ""
+      - "&7&oHit a player with this stick to make them turn around!"
+      - ""
+  Messages:
+    Damager:
+      - "&cYou have hit %player% with a SwitchStick!"
+    Damaged:
+      - "&cYou have been hit by a SwitchStick!"
+
+PowerUp:
+  Enabled: true
+  Cooldown: 180
+  Time: 5
+  Item:
+    Name: "&b&lPowerUp"
+    Lore:
+      - ""
+      - "&7&oRight Click to gain strength 2"
+      - ""
+  Messages:
+    Used:
+      - "&cYou have gained strength 2!"
+
+Strength:
+  Enabled: true
+  Cooldown: 180
+  Time: 5
+  Item:
+    Name: "&b&lResistance"
+    Lore:
+      - ""
+      - "&7&oRight Click for Strength 2"
+      - ""
+  Messages:
+    Used:
+      - "&cYou have used your strength 2 ability!"
+Resistance:
+  Enabled: true
+  Cooldown: 180
+  Time: 5
+  Item:
+    Name: "&b&lResistance"
+    Lore:
+      - ""
+      - "&7&oRight Click for Resistance 3"
+      - ""
+  Messages:
+    Used:
+      - "&cYou have used your resistance ability!"
+
+Debuff:
+  Enabled: true
+  Cooldown: 180
+  Time: 5
+  Item:
+    Name: "&b&lPortable Debuff"
+    Lore:
+      - ""
+      - "&7&oHit a player to give them poison"
+      - ""
+  Messages:
+    Damager:
+      - "&cYou have hit %player% with a portable debuff!"
+    Damaged:
+      - "&cYou have been hit by a portable debuff!"
+
+Backstab:
+  Enabled: true
+  Cooldown: 180
+  Item:
+    Name: "&b&lPortable Backstab"
+    Lore:
+      - ""
+      - "&7&oHit a player in the back to backstab them"
+      - ""
+  Messages:
+    Damager:
+      - "&cYou backstabbed %player%!"
+    Damaged:
+      - "&cYou have been backstabbed!"
+
+SmelterShovel:
+  Enabled: true
+  Item:
+    Name: "&b&lSmelter Shovel"
+    Lore:
+      - ""
+      - "&7&oBreak sand with this to get glass"
+      - ""
+

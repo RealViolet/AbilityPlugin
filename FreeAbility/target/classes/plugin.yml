@@ -1,0 +1,6 @@
+name: Ability
+version: 1.0
+main: me.winter.ability.AbilityPlugin
+website: frozen.gg
+author: Winter
+commands:
